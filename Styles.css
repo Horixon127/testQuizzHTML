@@ -1,0 +1,20 @@
+.circulo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #e70f0f;
+} 
+.Cuadrado {
+    width: 120px; 
+    height: 120px; 
+    background: #0ffd1b;
+}
+.Triangulo-equilatero{
+    width: 0px;
+    height: 0px;
+    border-right: 120px solid transparent;
+    border-top: 120px solid transparent;
+    border-left: 120px solid transparent;
+    border-bottom: 120px solid pink; 
+    
+}
