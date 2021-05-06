@@ -1,20 +1,50 @@
-.circulo {
+.background {
+    background: linear-gradient(to right, #000046, #1cb5e0);
+  }
+  .form-container {
+    padding: 3rem;
+    width: 40%;
+    height: auto;
+    border: solid 0.1rem gray;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -11px 11px 10px #00000186;
+  }
+  .bg-white {
+    background-color: white;
+  }
+  .circulo {
     width: 120px;
     height: 120px;
+    margin: 0 auto;
     border-radius: 50%;
     background-color: #e70f0f;
-} 
-.Cuadrado {
-    width: 120px; 
-    height: 120px; 
+  }
+  .Cuadrado {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
     background: #0ffd1b;
-}
-.Triangulo-equilatero{
+  }
+  .Triangulo-equilatero {
     width: 0px;
     height: 0px;
+    margin: 0 auto;
     border-right: 120px solid transparent;
-    border-top: 120px solid transparent;
+    border-top: 20px solid transparent;
     border-left: 120px solid transparent;
-    border-bottom: 120px solid pink; 
-    
-}
+    border-bottom: 120px solid pink;
+  }
+  .TextStyle {
+    text-align: center;
+    font-style: inherit;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .screen-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  
